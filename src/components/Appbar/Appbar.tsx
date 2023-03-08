@@ -1,3 +1,7 @@
 export default function Appbar() {
-  return <div>Appbar</div>
+  return (
+    <div>
+      <div>Hello world</div>
+    </div>
+  )
 }
