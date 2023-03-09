@@ -1,8 +1,8 @@
-import React from 'react'
 import './styles/global.css'
+import Index from './pages/Index/Index'
 
 function App() {
-  return <>hello</>
+  return <Index />
 }
 
 export default App

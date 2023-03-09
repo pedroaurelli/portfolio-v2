@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-light-blue;
+}
+::-webkit-scrollbar {
+  @apply w-2;
+  @apply bg-red-700;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-blue;
+  @apply rounded-md;
+}
+
+@layer base {
+  * {
+    @apply text-dark-blue
+  }
+
+  h1 {
+    @apply text-4xl font-bold tablet:text-5xl
+  }
+
+  h2 {
+    @apply text-2xl font-semibold tablet:text-3xl
+  }
+
+  h3 {
+    @apply text-lg font-medium tablet:text-xl
+  }
+}
+
+@layer utilities {
+  .bigH2 {
+    @apply text-5xl tablet:text-6xl laptop:text-8xl whitespace-nowrap
+  }
+
+  .button {
+    @apply bg-secondary-blue px-4 py-2 min-w-[180px] rounded-2xl font-medium text-[#414A7A] transition delay-[25ms] duration-500 hover:bg-dark-blue hover:text-light-blue
+  }
+}
+
