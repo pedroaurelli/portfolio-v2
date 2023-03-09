@@ -17,10 +17,12 @@
         "sourceType": "module"
     },
     "plugins": [
+        "unused-imports",
         "react",
         "@typescript-eslint"
     ],
     "rules": {
+        "unused-imports/no-unused-imports": "error",
         "react/react-in-jsx-scope": 0,
         "indent": [
             "error",
