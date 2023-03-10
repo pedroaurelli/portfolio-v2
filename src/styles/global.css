@@ -29,7 +29,7 @@
 
 @layer base {
   * {
-    @apply text-dark-blue
+    @apply text-primary-blue
   }
 
   h1 {
@@ -47,11 +47,11 @@
 
 @layer utilities {
   .bigH2 {
-    @apply text-5xl tablet:text-6xl laptop:text-8xl whitespace-nowrap
+    @apply text-5xl font-bold tablet:text-6xl laptop:text-8xl whitespace-nowrap
   }
 
   .button {
-    @apply bg-secondary-blue px-4 py-2 min-w-[180px] rounded-2xl font-medium text-[#414A7A] transition delay-[25ms] duration-500 hover:bg-dark-blue hover:text-light-blue
+    @apply bg-secondary-blue px-4 py-2 min-w-[180px] rounded-2xl font-medium text-[#414A7A] transition delay-[25ms] duration-300 hover:bg-dark-blue hover:text-light-blue
   }
 }
 

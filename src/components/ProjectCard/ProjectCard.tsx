@@ -1,11 +1,13 @@
 import Button from '../Button'
 
-type ProjectCardProps = {
+export type ProjectCardProps = {
   src: string
   alt: string
   title: string
   text: string
   href: string
+  duration?: number
+  delay?: number
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
