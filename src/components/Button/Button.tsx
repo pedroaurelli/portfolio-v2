@@ -9,7 +9,9 @@ export default function Button(props: ButtonProps) {
 
   return (
     <a href={href}>
-      <button className={`button ${styles}`} >{text}</button>
+      <button className={`button group ${styles} transition-hover`}>
+        <span className='group-hover:text-white transition-hover'>{text}</span>
+      </button>
     </a>
   )
 }

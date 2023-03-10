@@ -22,7 +22,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <h2>{title}</h2>
         <p className='pt-4'>{text}</p>
         <div className='flex-grow'></div>
-        <Button href={href} text='Call to action' />
+        <Button href={href} text='Visitar projeto' />
       </div>
     </div>
   )

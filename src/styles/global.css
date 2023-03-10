@@ -51,7 +51,11 @@
   }
 
   .button {
-    @apply bg-secondary-blue px-4 py-2 min-w-[180px] rounded-2xl font-medium text-[#414A7A] transition delay-[25ms] duration-300 hover:bg-dark-blue hover:text-light-blue
+    @apply bg-secondary-blue px-4 py-2 min-w-[180px] rounded-2xl font-medium text-[#414A7A] hover:bg-dark-blue hover:text-light-blue
+  }
+
+  .transition-hover {
+    @apply transition delay-[25ms] duration-300
   }
 }
 
