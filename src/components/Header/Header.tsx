@@ -15,9 +15,9 @@ export default function Header() {
             </DownToUp>
             <DownToUp delay={0.5}>
               <h3 className='mt-16'>
-                  Lorem ipsum dolor sit amet consectetur. Ipsum non in elementum arcu
-                  in sed aliquet vel. Lorem ipsum dolor sit amet consectetur. Ipsum non
-                  in elementum arcu in sed aliquet vel.
+                Lorem ipsum dolor sit amet consectetur. Ipsum non in elementum arcu
+                in sed aliquet vel. Lorem ipsum dolor sit amet consectetur. Ipsum non
+                in elementum arcu in sed aliquet vel.
               </h3>
             </DownToUp>
           </div>
