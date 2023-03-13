@@ -9,27 +9,24 @@ const projectCards: ProjectCardProps[] = [
   {
     title: 'Pupilla',
     text: 'Plataforma de venda de cursos e produção de conteúdo para o publico médico, apoiado pelo Grupo Fleury.',
-    alt: '',
-    href: '',
-    src: 'https://www.michaelpage.com.ph/sites/michaelpage.com.ph/files/2022-06/Software%20Developer.jpg',
+    href: 'https://github.com/pedroaurelli/pupilla-README',
+    src: './images/pupilla-thumb.png',
     delay: 0.2,
     duration: 1
   },
   {
     title: 'Spotify top artists',
     text: 'Quer descobrir quais artistas você mais ouviu no mês? Faça o teste agora!',
-    alt: '',
-    href: '',
-    src: 'https://uploads.jovemnerd.com.br/wp-content/uploads/2022/05/spotify_ferramenta_musicas_mais_ouvidas__t9exrb-1210x544.jpg',
+    href: 'https://github.com/pedroaurelli/spotify-most-listened-artists',
+    src: './images/spotify-thumb.png',
     delay: 0.4,
     duration: 1
   },
   {
     title: 'Instagram scraper',
-    text: 'Aplicativo para visualizar quais seguidores não te segue de volta no Instagram. Ainda em fase de teste.',
-    alt: '',
-    href: '',
-    src: 'https://neilpatel.com/wp-content/uploads/fly-images/83570/smartphone-com-aplicativo-instagram-aberto-em-meio-1200x675-c.jpeg',
+    text: 'Web Scraper em NodeJs para visualizar quais seguidores não te segue de volta no Instagram.',
+    href: 'https://github.com/pedroaurelli/instagram-followback-scraper',
+    src: './images/instagram-thumb.png',
     delay: 0.6,
     duration: 1
   },
@@ -49,9 +46,9 @@ export default function ProjectsSection() {
           </RightToLeftView>
           <LeftToRightView>
             <a href='https://github.com/pedroaurelli?tab=repositories' target='_blank' rel="noreferrer">
-              <button className="font-bold py-2 px-4 rounded inline-flex items-center gap-3">
+              <button className="font-bold py-2 px-4 inline-flex items-center gap-3 rounded-2xl group">
                 <span>Ver todos os repositórios</span>
-                <ArrowRight />
+                <span className='group-hover:translate-x-2 transition-hover'><ArrowRight /></span>
               </button>
             </a>
           </LeftToRightView>
@@ -61,10 +58,9 @@ export default function ProjectsSection() {
             <ScrollDownToUp key={project.title} duration={project.duration} delay={project.delay}>
               <ProjectCard
                 src={project.src}
-                alt={''}
                 title={project.title}
                 text={project.text}
-                href={''}
+                href={project.href}
               />
             </ScrollDownToUp>
           ))}
