@@ -33,12 +33,16 @@ export default function AboutMeSection() {
             </div>
             <RightToLeftView>
               <div className='flex flex-col items-center tablet:gap-12'>
-                <img src='https://github.com/pedroaurelli.png' className='rounded-full w-[77px] tablet:w-[180px] laptop:w-[260px]' />
+                <img
+                  src='https://github.com/pedroaurelli.png'
+                  alt='Pedro Aureliano - foto de perfil'
+                  className='rounded-full w-[77px] tablet:w-[180px] laptop:w-[260px]'
+                />
                 <Button href={'./curriculo.pdf'} blank text='Visualizar CV' className='hidden tablet:block'/>
               </div>
             </RightToLeftView>
             <div className='block tablet:hidden order-first'>
-              <Button href={'./curriculo.pdf'} text='Visualizar CV'/>
+              <Button href={'./curriculo.pdf'} text='Visualizar CV' blank/>
             </div>
           </div>
           <div className='mt-16 tablet:absolute tablet:bottom-16'>

@@ -10,7 +10,7 @@ const projectCards: ProjectCardProps[] = [
     title: 'Pupilla',
     text: 'Plataforma de venda de cursos e produção de conteúdo para o publico médico, apoiado pelo Grupo Fleury.',
     href: 'https://github.com/pedroaurelli/pupilla-README',
-    src: './images/pupilla-thumb.png',
+    src: './images/pupilla-thumb.webp',
     delay: 0.2,
     duration: 1
   },
@@ -18,7 +18,7 @@ const projectCards: ProjectCardProps[] = [
     title: 'Spotify top artists',
     text: 'Quer descobrir quais artistas você mais ouviu no mês? Faça o teste agora!',
     href: 'https://github.com/pedroaurelli/spotify-most-listened-artists',
-    src: './images/spotify-thumb.png',
+    src: './images/spotify-thumb.webp',
     delay: 0.4,
     duration: 1
   },
@@ -26,7 +26,7 @@ const projectCards: ProjectCardProps[] = [
     title: 'Instagram scraper',
     text: 'Web Scraper em NodeJs para visualizar quais seguidores não te segue de volta no Instagram.',
     href: 'https://github.com/pedroaurelli/instagram-followback-scraper',
-    src: './images/instagram-thumb.png',
+    src: './images/instagram-thumb.webp',
     delay: 0.6,
     duration: 1
   },
