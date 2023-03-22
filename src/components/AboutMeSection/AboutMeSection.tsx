@@ -6,8 +6,8 @@ import DoubleArrowDown from '../icons/DoubleArrowDown'
 export default function AboutMeSection() {
   return (
     <ScrollDownToUp>
-      <div className='laptop:container h-full tablet:h-screen mx-auto flex items-center justify-center'>
-        <div className='relative bg-light-blue w-full min-h-[800px] laptop:rounded-2xl p-4 tablet:p-16 flex flex-col items-center justify-center'>
+      <div id='contato' className='laptop:container h-full laptop:h-screen mx-auto flex items-center justify-center'>
+        <div className=' bg-light-blue w-full min-h-[800px] laptop:rounded-2xl p-4 tablet:p-16 flex flex-col items-center justify-center'>
           <div className='flex flex-col-reverse tablet:flex-row  items-center justify-center gap-16 tablet:gap-32'>
             <div className='flex flex-col'>
               <ScrollDownToUp delay={0.4}>
@@ -45,7 +45,7 @@ export default function AboutMeSection() {
               <Button href={'./curriculo.pdf'} text='Visualizar CV' blank/>
             </div>
           </div>
-          <div className='mt-16 tablet:absolute tablet:bottom-16'>
+          <div className='mt-16'>
             <DoubleArrowDown />
           </div>
         </div>

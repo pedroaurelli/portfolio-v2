@@ -37,7 +37,7 @@ export default function ProjectsSection() {
     <>
       <TextParallaxScroll baseVelocity={-5} text='PROJETOS' color='text-light-blue' />
       <TextParallaxScroll baseVelocity={5} text='PROJETOS' color='text-primary-blue' />
-      <div className='mb-32 tablet:mb-0 container mx-auto h-auto laptop:h-screen flex flex-col items-center justify-center'>
+      <div id='projetos' className='mb-32 tablet:mb-0 container mx-auto h-auto laptop:h-screen flex flex-col items-center justify-center'>
         <div className='container mx-auto flex flex-col tablet:flex-row justify-between items-start mb-20 mt-24 laptop:mt-0'>
           <RightToLeftView>
             <p className='max-w-[471px] mb-16 tablet:mb-0'>

@@ -29,7 +29,7 @@
 
 @layer base {
   * {
-    @apply text-primary-blue
+    @apply text-primary-blue scroll-smooth
   }
 
   ::selection {

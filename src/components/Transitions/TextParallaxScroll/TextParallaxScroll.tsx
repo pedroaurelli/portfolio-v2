@@ -32,7 +32,7 @@ function ParallaxText({ color, text, baseVelocity }: ParallaxProps) {
 
   return (
     <div className="overflow-hidden whitespace-nowrap flex flex-nowrap">
-      <motion.div style={{ x }}>
+      <motion.div style={{ x }} className='-z-20'>
         <h2 className={'bigH2'}>
           <span className={`mr-3 ${color}`}>{text}</span>
           <span className={`mr-3 ${color}`}>{text}</span>
