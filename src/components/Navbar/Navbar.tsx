@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`${open ? 'h-screen w-screen' : 'w-full tablet:w-auto'} flex items-center justify-center fixed pl-6 z-50 laptop:h-full bg-[#fff]`}
+        className={`${open ? 'h-screen w-screen' : 'w-full laptop:w-auto'} flex items-center justify-center fixed pl-6 z-50 laptop:h-full bg-[#fff]`}
       >
         <button
           onClick={() => setOpen(!open)}

@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       <header id='home' className='container h-[87vh] mx-auto flex items-center justify-center'>
-        <div className='tablet:flex tablet:max-w-4xl space-x-[40px] items-center justify-center'>
+        <div className='tablet:flex space-x-[40px] items-center justify-between'>
           <div className='flex flex-col w-full'>
             <DownToUp>
               <h1>Pedro Aureliano</h1>

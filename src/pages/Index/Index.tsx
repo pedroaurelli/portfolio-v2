@@ -7,7 +7,7 @@ import ProjectsSection from '../../components/ProjectsSection'
 export default function Index() {
   return (
     <main className='grid grid-cols-1 laptop:grid-cols-10'>
-      <div className='laptop:col-span-1'>
+      <div className='laptop:col-span-1 shadow-md'>
         <Navbar />
       </div>
       <div className='laptop:col-span-9'>

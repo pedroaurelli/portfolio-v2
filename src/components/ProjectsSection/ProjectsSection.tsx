@@ -3,7 +3,7 @@ import LeftToRightView from '../Transitions/LeftToRightView/LeftToRightView'
 import RightToLeftView from '../Transitions/RightToLeftView/RightToLeftView'
 import ScrollDownToUp from '../Transitions/ScrollDownToUp/ScrollDownToUp'
 import TextParallaxScroll from '../Transitions/TextParallaxScroll/TextParallaxScroll'
-import ArrowRight from '../icons/ArrowRight/ArrowRight'
+import { FaArrowRight } from 'react-icons/fa'
 
 const projectCards: ProjectCardProps[] = [
   {
@@ -48,7 +48,7 @@ export default function ProjectsSection() {
             <a href='https://github.com/pedroaurelli?tab=repositories' target='_blank' rel="noreferrer">
               <button className="font-bold py-2 px-4 inline-flex items-center gap-3 rounded-2xl group">
                 <span>Ver todos os repositórios</span>
-                <span className='group-hover:translate-x-2 transition-hover'><ArrowRight /></span>
+                <span className='group-hover:translate-x-2 transition-hover'><FaArrowRight /></span>
               </button>
             </a>
           </LeftToRightView>
