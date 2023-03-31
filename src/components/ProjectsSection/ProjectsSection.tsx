@@ -8,8 +8,8 @@ import { FaArrowRight } from 'react-icons/fa'
 const projectCards: ProjectCardProps[] = [
   {
     title: 'Pupilla',
-    text: 'Plataforma de venda de cursos e produção de conteúdo para o publico médico, apoiado pelo Grupo Fleury.',
-    href: 'https://github.com/pedroaurelli/pupilla-README',
+    text: 'Plataforma de anúncio de cursos e produção de conteúdo para o publico médico, apoiado pelo Grupo Fleury.',
+    href: 'https://github.com/pedroaurelli/pupilla',
     src: './images/pupilla-thumb.webp',
     delay: 0.2,
     duration: 1
@@ -24,8 +24,8 @@ const projectCards: ProjectCardProps[] = [
   },
   {
     title: 'Instagram scraper',
-    text: 'Web Scraper em NodeJs para visualizar quais seguidores não te segue de volta no Instagram.',
-    href: 'https://github.com/pedroaurelli/instagram-followback-scraper',
+    text: 'Web Scraper em NodeJs para visualizar quais seguidores não te seguem de volta no Instagram.',
+    href: 'https://github.com/pedroaurelli/instagram-scraper',
     src: './images/instagram-thumb.webp',
     delay: 0.6,
     duration: 1

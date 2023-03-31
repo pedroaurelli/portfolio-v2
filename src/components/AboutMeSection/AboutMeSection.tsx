@@ -27,7 +27,7 @@ export default function AboutMeSection() {
                   Minha jornada no mundo de TI se inicia após eu concluir o ensino médio em 2020, comecei a estudar programação
                   durante a pandemia do Covid-19, em 2021. Hoje cursando Análise e Desenvolvimento de Sistemas na Universidade
                   São Judas Tadeu (USJT) em São Paulo - SP. Além de novos conhecimentos que acabo adquirindo no trabalho, dedico
-                  meu tempo de modo autodita para estudar.
+                  meu tempo de modo autodidata para estudar.
                 </p>
               </ScrollDownToUp>
               <br />
